@@ -1,0 +1,56 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+	background-color: #e4e4e4;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Style the logo */
+h1 {
+	font-size: 32px;
+    background-color: chartreuse;
+}
+
+/* Style the navigation */
+nav ul {
+	list-style-type: none;
+    background-color: chartreuse;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+    background-color: chartreuse;
+}
+
+nav li:first-child {
+	margin-left: 0;
+    background-color: chartreuse;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+    background-color: chartreuse;
+}
+
+/* Style the main content */
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.banner img {
+	width: 100%;
+}
+
